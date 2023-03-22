@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    width: 70%; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color:rgb(255, 55, 0) ;
+    font-size: 32px;
+    margin-bottom: 40px
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.items {
+    background-color: #0f0e17;
+    display: flex;
+    width: 32%;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img {
+    width: 100px;
+}
+
+.mail {
+    color:rgb(0, 128, 255) ;
+}
